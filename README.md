@@ -1,4 +1,5 @@
 # trendy-hugo-template
+![trendy-hugo-template logo](/media/logo.png)
 ⚡ Trendy hugo template ( hugo, React - web component, scss )
 > Inspired by [fireship.io structure](https://github.com/fireship-io/fireship.io)
 
