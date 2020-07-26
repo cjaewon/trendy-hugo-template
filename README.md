@@ -1,5 +1,6 @@
 # trendy-hugo-template
-![trendy-hugo-template logo](/media/logo.png)
+![trendy-hugo-template logo](https://user-images.githubusercontent.com/32125218/88475228-e7c1af00-cf68-11ea-9645-b87fb72cf561.png)
+
 ⚡ Trendy hugo template ( hugo, React - web component, scss )
 > Inspired by [fireship.io structure](https://github.com/fireship-io/fireship.io)
 
