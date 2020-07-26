@@ -5,4 +5,8 @@
       <h1>⚡ Trendy Hugo Template</h1>
     </a>
  </div>
+
+ {{ range where .Paginator.Pages ".File.Dir" "posts/" }}
+    {{ partial "summary.html" . }}
+ {{ end }}
 {{ end }}
