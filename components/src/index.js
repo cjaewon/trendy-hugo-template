@@ -1,1 +1,1 @@
-import './search-box';
+import './post-search';
