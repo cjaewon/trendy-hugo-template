@@ -14,18 +14,20 @@
 npx degit cjaewon/trendy-hugo-template my-website
 ```
 
+**⚠️ Recommed :: [Disable Chrome Caching ( css or js )](https://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development)**
+
 ## Command ( yarn )
+> **Build Hugo**
 - yarn hugo ( build :: prod mode )
 - yarn hugo:watch ( dev mode )
-> **Build Hugo**
 
+> **Compile Sass / Scss**
 - yarn design ( build :: prod mode )
 - yarn design:watch ( dev mode )
-> **Compile Sass / Scss**
 
+> **Compile React Web Components**
 - yarn components ( build :: prod mode )
 - yarn components:watch ( dev mode )
-> **Compile React Web Components**
 
+> **Build ALL** -> `yarn hugo && yarn design && yarn components`
 - yarn build ( build :: all )
-> `yarn hugo && yarn design && yarn components`
