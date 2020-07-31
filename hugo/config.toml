@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://cjaewon.github.io/hugo-trendy-template"
 languageCode = "en-us"
 title = "⚡️ Trendy Hugo Template"
 pygmentsUseClasses=true
