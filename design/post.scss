@@ -22,9 +22,7 @@
 .content-header {
   h1 {
     font-size: 1.925rem;
-    margin-bottom: 0.3rem;
-    padding-bottom: 0.2rem;
-    border-bottom: 2px solid rgba(black, .7);
+    margin-bottom: 0.15rem;
   }
 
   p {
@@ -35,5 +33,39 @@
 }
 
 .content {
+  font-size: 1.25rem;
+  font-weight: 400;
 
+  h1, h2 {
+    margin: 1.5rem 0;
+    font-weight: 400;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    width: calc(100% - 0.5em);
+    margin: 2rem 0;
+  }
+
+  code:not([class]) {
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-bottom: 2px solid rgb(38, 118, 223);
+    font-family: auto;
+  }
+
+  .highlight {
+    pre {
+      padding: 0.5rem;
+      border-radius: 4px;
+    }
+
+    code {
+      font-family: auto;
+      font-size: 0.925rem;
+    }
+  }
 }
