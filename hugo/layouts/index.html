@@ -6,7 +6,7 @@
     </a>
  </div>
  <hr />
- {{ range where .Paginator.Pages ".File.Dir" "posts/" }}
+ {{ range where .Site.RegularPages "Section" "posts" }}
     {{ partial "summary.html" . }}
  {{ end }}
 {{ end }}
