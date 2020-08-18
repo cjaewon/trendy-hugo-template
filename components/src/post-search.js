@@ -1,12 +1,12 @@
-import { html } from 'lit-html';
-import { component } from 'haunted';
+import { LitElement, html } from 'lit-element';
 
-function PostSearch() {
-  return html`
-    <div class="search">
-      <input type="text" />
-    </div>
-  `;
+class PostSearch extends LitElement {
+  render() {
+    return html`
+      <div class="search">
+        <input type="text" />
+      </div>
+    `;
+  }
 }
-
-customElements.define('post-search', component(PostSearch, { useShadowDOM: false }));
+customElements.define('post-search', Comments); 
