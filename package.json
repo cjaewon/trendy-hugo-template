@@ -1,0 +1,25 @@
+{
+  "name": "trendy-hugo-template",
+  "version": "1.0.0",
+  "description": "trendy hugo template",
+  "main": "index.js",
+  "repository": "https://github.com/cjaewon/trendy-hugo-template.git",
+  "author": "cjaewon <jwn4492@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "design": "parcel build design/styles.scss -d hugo/static/styles --no-source-maps",
+    "design:watch": "parcel watch design/styles.scss -d hugo/static/styles --no-hmr",
+    "hugo": "cd hugo && hugo",
+    "hugo:watch": "cd hugo && hugo server -D",
+    "scripts": "parcel build scripts/src/index.ts -d hugo/static/scripts/ -o bundle.js --no-source-maps",
+    "scripts:watch": "parcel watch scripts/src/index.ts -d hugo/static/scripts/ -o bundle.js --no-hmr",
+    "build": "yarn design && yarn scripts && yarn hugo"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}

@@ -1,0 +1,12 @@
+{{ define "main"}}
+ <div class="profile">
+    <a href="/"><img src="/img/logo.png" alt="trendy-hugo-template logo" /></a>
+    <a href="https://github.com/cjaewon/trendy-hugo-template">
+      <h1>⚡ Trendy Hugo Template</h1>
+    </a>
+ </div>
+ <hr />
+ {{ range where .Site.RegularPages "Section" "posts" }}
+    {{ partial "summary.html" . }}
+ {{ end }}
+{{ end }}

@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --orange:	#FFA500;
+  --gray: gray;
+}
+
+main {
+  max-width: 560px;
+  margin: 2rem auto;
+  padding: 0.2rem 0.5rem;
+}
