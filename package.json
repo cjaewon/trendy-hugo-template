@@ -12,9 +12,9 @@
     "design:watch": "parcel watch design/styles.scss -d hugo/static/styles --no-hmr",
     "hugo": "cd hugo && hugo",
     "hugo:watch": "cd hugo && hugo server -D",
-    "components": "parcel build components/src/index.js -d hugo/static/scripts/ -o bundle.js --no-source-maps",
-    "components:watch": "parcel watch components/src/index.js -d hugo/static/scripts/ -o bundle.js --no-hmr",
-    "build": "yarn design && yarn components && yarn hugo"
+    "scripts": "parcel build scripts/src/index.ts -d hugo/static/scripts/ -o bundle.js --no-source-maps",
+    "scripts:watch": "parcel watch scripts/src/index.ts -d hugo/static/scripts/ -o bundle.js --no-hmr",
+    "build": "yarn design && yarn scripts && yarn hugo"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.4"
